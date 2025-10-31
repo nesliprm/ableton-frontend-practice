@@ -7,13 +7,15 @@
   --clr-dark-blue: #0000ff;
   --clr-text: #222222;
   --clr-background: #fafafa;
-  --main-font: "Archivo", sans-serif;
+  --main-font: "Jost", sans-serif;
 }
 
 body {
   font-family: var(--main-font);
+  font-weight: 600;
+  line-height: 1.6;
   color: var(--clr-text);
   background-color: var(--clr-background);
   margin: 0;
-  padding: 2em;
+  padding: 0;
 }
