@@ -1,0 +1,26 @@
+[
+  {
+    "id": "med01",
+    "color": "var(--clr-yellow)",
+    "images": ["/images/image01.png", "/images/image02.png"]
+  },
+  {
+    "id": "med02",
+    "color": "var(--clr-green)",
+    "images": [
+      "/images/image03.png",
+      "/images/image04.png",
+      "/images/image05.png"
+    ]
+  },
+  {
+    "id": "med03",
+    "color": "var(--clr-lilac)",
+    "images": ["/images/image06.png", "/images/image07.png"]
+  },
+  {
+    "id": "med04",
+    "color": "var(--clr-light-blue)",
+    "images": ["/images/image08.png"]
+  }
+]

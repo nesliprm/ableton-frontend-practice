@@ -4,17 +4,20 @@ import { TextBlock } from "./components/TextBlock";
 import { MediaBlock } from "./components/MediaBlock";
 import { Footer } from "./components/Footer";
 import textBlockData from "./data/text-block-data.json";
+import mediaBlockData from "./data/media-block-data.json";
 
 function App() {
   return (
     <>
       <NavBar />
       <Hero />
-      <TextBlock
-        heading={textBlockData[0].heading}
-        body={textBlockData[0].body}
-      />
-      <MediaBlock />
+      {textBlockData.slice(0, 1).map((text) => (
+        <TextBlock key={text.id} heading={text.heading} body={text.body} />
+      ))}
+      {mediaBlockData.slice(0, 1).map((media) => (
+        <MediaBlock key={media.id} color={media.color} images={media.images} />
+      ))}
+
       <Footer />
     </>
   );
