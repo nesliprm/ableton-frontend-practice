@@ -6,7 +6,7 @@
 }
 
 .footer-container a {
-  color: var(--clr-text);
+  color: var(--clr-txt);
   font-size: 14px;
   text-decoration: none;
 }
@@ -38,7 +38,7 @@
 .footer-container button {
   font-family: var(--main-font);
   padding: 5px 20px;
-  color: var(--clr-background);
+  color: var(--clr-bg);
   background-color: var(--clr-dark-blue);
   border: none;
   cursor: pointer;

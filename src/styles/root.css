@@ -5,8 +5,8 @@
   --clr-red: #ff764d;
   --clr-lilac: #d5b3ff;
   --clr-dark-blue: #0000ff;
-  --clr-text: #222222;
-  --clr-background: #fafafa;
+  --clr-txt: #222222;
+  --clr-bg: #fafafa;
   --main-font: "Jost", sans-serif;
 }
 
@@ -14,8 +14,8 @@ body {
   font-family: var(--main-font);
   font-weight: 600;
   line-height: 1.6;
-  color: var(--clr-text);
-  background-color: var(--clr-background);
+  color: var(--clr-txt);
+  background-color: var(--clr-bg);
   margin: 0;
   padding: 0;
 }
