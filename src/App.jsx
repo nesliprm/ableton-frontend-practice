@@ -4,7 +4,7 @@ import { TextBlock } from "./components/TextBlock";
 import { MediaBlock } from "./components/MediaBlock";
 import { Footer } from "./components/Footer";
 import textBlockData from "./data/text-block-data.json";
-import mediaBlockData from "./data/media-block-data.json";
+// import mediaBlockData from "./data/media-block-data.json";
 
 function App() {
   return (
@@ -14,9 +14,8 @@ function App() {
       {textBlockData.slice(0, 1).map((text) => (
         <TextBlock key={text.id} heading={text.heading} body={text.body} />
       ))}
-      {mediaBlockData.slice(0, 1).map((media) => (
-        <MediaBlock key={media.id} color={media.color} images={media.images} />
-      ))}
+
+      <MediaBlock />
 
       <Footer />
     </>
